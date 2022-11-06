@@ -60,5 +60,9 @@ sudo virsh net-autostart default
 
 sudo modprobe vhost_net
 
+#openssh time
+
+sudo apt install openssh-client
+
 echo "Script is complete, go away"
 
