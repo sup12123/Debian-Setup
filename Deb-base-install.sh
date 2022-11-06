@@ -39,7 +39,7 @@ mullvad account login $accountnumber
 
 echo "This script automatically connects to the miami wireguard server."
 
-mullvad relay set hostname us-mia-wg-002
+mullvad relay set location us mia us-mia-wg-002
 
 mullvad connect
 
